@@ -1,6 +1,6 @@
-<!-- Custom SMIL-animated hero — typing terminal + firing neural net. Nobody else has this. -->
+<!-- Animated hero — referenced by ABSOLUTE raw URL so GitHub's image proxy renders it reliably. -->
 <p align="center">
-  <img src="./assets/hero.svg" alt="Poyraz — @Jyseen1" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Jyseen1/Jyseen1/main/hero.svg" alt="Poyraz — @Jyseen1" width="100%"/>
 </p>
 
 <p align="center">
@@ -15,9 +15,8 @@
 ```python
 class Poyraz:
     def __init__(self):
-        self.role      = "AI/ML builder"
-        self.focus     = ["LLM tooling", "ML from scratch", "developer tools"]
-        self.learning  = "building useful things in public"
+        self.role       = "AI/ML builder"
+        self.focus      = ["LLM tooling", "ML from scratch", "developer tools"]
         self.philosophy = "one tool people actually use > ten showcase repos"
 ```
 
@@ -27,10 +26,8 @@ I build small, sharp tools — the kind that solve one real problem well. Curren
 
 ### 🔭 Currently building
 
-- **[repo-context-cli](https://github.com/Jyseen1)** — turn any codebase into a single, token-counted context file for LLMs. *(coming soon)*
 - Learning in public: implementing ML building blocks from scratch, documented for humans.
-
-> _Replace these with your real repos as you ship them — an honest "coming soon" beats a fake finished list._
+- First open-source tool dropping soon — a CLI that turns any codebase into a single, token-counted context file for LLMs.
 
 ---
 
@@ -48,18 +45,17 @@ I build small, sharp tools — the kind that solve one real problem well. Curren
 ### 📊 GitHub in numbers
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Jyseen1&show_icons=true&hide_border=true&count_private=true&title_color=3b82f6&icon_color=7c3aed&text_color=9aa4b2&bg_color=0d1117"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jyseen1&layout=compact&hide_border=true&title_color=3b82f6&text_color=9aa4b2&bg_color=0d1117"/>
-</p>
-
-<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Jyseen1&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&title_color=3b82f6&icon_color=7c3aed&text_color=9aa4b2&bg_color=0d1117"/>
   <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Jyseen1&hide_border=true&background=0d1117&stroke=1b2233&ring=3b82f6&fire=7c3aed&currStreakLabel=9aa4b2&sideLabels=9aa4b2&dates=7d8590&currStreakNum=e6edf3&sideNums=e6edf3"/>
 </p>
 
-<!-- Contribution snake — requires the GitHub Action in the setup notes below. -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Jyseen1/Jyseen1/output/snake.svg" alt="contribution snake"/>
-</p>
+<!--
+  Bunlar public repo'n olunca eklenecek (şimdi eklersen boş/kırık görünür):
+  • Top languages kartı:
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jyseen1&layout=compact&hide_border=true&title_color=3b82f6&text_color=9aa4b2&bg_color=0d1117"/>
+  • Katkı yılanı (önce .github/workflows/snake.yml action'ını kurup bir kez çalıştır):
+    <img src="https://raw.githubusercontent.com/Jyseen1/Jyseen1/output/snake.svg" alt="snake"/>
+-->
 
 ---
 
