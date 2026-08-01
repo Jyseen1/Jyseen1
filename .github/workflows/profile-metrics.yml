@@ -1,0 +1,47 @@
+name: Refresh profile metrics
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/profile-metrics.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: 3
+          AUTO_PUSH: false
+          THEME: transparent
+
+      - name: Generate streak card
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: "user=${{ github.repository_owner }}&locale=en&disable_animations=true&hide_border=true&background=F4F3EF&ring=0F6E56&fire=E8482B&currStreakNum=383838&sideNums=383838&currStreakLabel=0F6E56&sideLabels=0F6E56&dates=777777"
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit refreshed cards
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- profile profile-summary-card-output
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: refresh profile metrics"
+          git push

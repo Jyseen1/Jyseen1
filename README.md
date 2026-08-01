@@ -87,9 +87,18 @@ A mobile career game where players build a real-estate business by reading peopl
 
 ## GitHub activity
 
+<!-- Generated daily by .github/workflows/profile-metrics.yml. -->
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Jyseen1&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&title_color=0F6E56&icon_color=E8482B&text_color=383838&bg_color=F4F3EF" alt="Poyraz's GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jyseen1&layout=compact&hide_border=true&title_color=0F6E56&text_color=383838&bg_color=F4F3EF" alt="Most used languages" />
+  <img width="98%" src="./profile-summary-card-output/transparent/0-profile-details.svg" alt="Poyraz's GitHub profile details" />
+</p>
+
+<p align="center">
+  <img width="49%" src="./profile-summary-card-output/transparent/3-stats.svg" alt="Poyraz's GitHub stats" />
+  <img width="49%" src="./profile-summary-card-output/transparent/1-repos-per-language.svg" alt="Most used languages" />
+</p>
+
+<p align="center">
+  <img width="98%" src="./profile/streak.svg" alt="Poyraz's GitHub contribution streak" />
 </p>
 
 ---
