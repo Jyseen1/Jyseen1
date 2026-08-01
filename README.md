@@ -1,64 +1,99 @@
-<!-- Animated hero — referenced by ABSOLUTE raw URL so GitHub's image proxy renders it reliably. -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Jyseen1/Jyseen1/main/hero.svg" alt="Poyraz — @Jyseen1" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Jyseen1/Jyseen1/main/hero%20(1).svg" alt="Poyraz — @Jyseen1" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/Jyseen1?tab=repositories"><img src="https://img.shields.io/badge/-Projects-3b82f6?style=flat-square&logo=github&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=Jyseen1&style=flat-square&color=7c3aed&label=profile+views"/>
+  <strong>Product-minded developer building ambitious digital experiences.</strong><br/>
+  From operational platforms to cinematic interfaces and game systems.
+</p>
+
+<p align="center">
+  <a href="https://github.com/Jyseen1?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore_my_work-111111?style=for-the-badge&logo=github&logoColor=white" alt="Explore my work" />
+  </a>
+  <a href="mailto:poyraztufekcier41@gmail.com">
+    <img src="https://img.shields.io/badge/Contact-E8482B?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=Jyseen1&style=for-the-badge&color=0F6E56&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
 ---
 
-### whoami
+## About me
 
-```python
-class Poyraz:
-    def __init__(self):
-        self.role       = "AI/ML builder"
-        self.focus      = ["LLM tooling", "ML from scratch", "developer tools"]
-        self.philosophy = "one tool people actually use > ten showcase repos"
+```ts
+const poyraz = {
+  role: "Product-minded developer",
+  focus: ["Product Engineering", "AI Systems", "Interactive Experiences"],
+  currentMission: "Building BROKER — a real-estate career game",
+  principle: "Ship something people can feel, not just another demo."
+};
 ```
 
-I build small, sharp tools — the kind that solve one real problem well. Currently going deep on AI/ML and shipping open source.
+I turn ideas into products with a strong identity. I care about the entire journey: the system underneath, the interaction in the user's hand, and the story the product tells at first glance.
 
----
+## Currently building
 
-### 🔭 Currently building
+### BROKER — Real Estate Career
 
-- Learning in public: implementing ML building blocks from scratch, documented for humans.
-- First open-source tool dropping soon — a CLI that turns any codebase into a single, token-counted context file for LLMs.
+A mobile career game where players build a real-estate business by reading people, valuing properties, negotiating under pressure, and closing deals. It combines accessible gameplay with behavioral scoring and realistic industry scenarios.
 
----
+`Next.js` · `TypeScript` · `Game Systems` · `Behavioral Scoring` · `Mobile-first UX`
 
-### 🛠 Stack
+> Portfolio discovery → valuation → mandate → buyer qualification → showing → negotiation → closing.
 
-![Python](https://img.shields.io/badge/-Python-0d1117?style=flat-square&logo=python&logoColor=3b82f6)
-![PyTorch](https://img.shields.io/badge/-PyTorch-0d1117?style=flat-square&logo=pytorch&logoColor=ee4c2c)
-![TypeScript](https://img.shields.io/badge/-TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178c6)
-![Node.js](https://img.shields.io/badge/-Node.js-0d1117?style=flat-square&logo=node.js&logoColor=6cc24a)
-![Docker](https://img.shields.io/badge/-Docker-0d1117?style=flat-square&logo=docker&logoColor=2496ed)
-![Git](https://img.shields.io/badge/-Git-0d1117?style=flat-square&logo=git&logoColor=f05032)
+## Selected work
 
----
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Deneyim Merkezi</h3>
+      <p>A production-oriented reservation platform with a staff dashboard, WhatsApp approval flow, reminders, timeouts and queue-based automation.</p>
+      <p><code>Next.js</code> <code>Fastify</code> <code>PostgreSQL</code> <code>Redis</code></p>
+      <a href="https://github.com/Jyseen1/deneyim-merkezi"><strong>Source →</strong></a>
+      &nbsp;·&nbsp;
+      <a href="https://deneyim-merkezi.vercel.app"><strong>Live →</strong></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Imperium Romanum</h3>
+      <p>A cinematic, bilingual experience for a Socratic Discord bot, combining real-time Roman 3D scenes with scroll-driven storytelling.</p>
+      <p><code>Three.js</code> <code>GSAP</code> <code>WebGL</code> <code>i18n</code></p>
+      <a href="https://github.com/Jyseen1/imperium-romanum-site"><strong>Source →</strong></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Poyraz OS</h3>
+      <p>An interactive desktop-style portfolio with a boot sequence, window manager, terminal, live widgets, themes and a playable Snake app.</p>
+      <p><code>JavaScript</code> <code>Canvas</code> <code>Web Audio</code> <code>CSS</code></p>
+      <a href="https://github.com/Jyseen1/poyraz-os"><strong>Source →</strong></a>
+      &nbsp;·&nbsp;
+      <a href="https://poyraz-os.vercel.app"><strong>Live →</strong></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Next chapter</h3>
+      <p>I am documenting the systems behind BROKER and preparing more focused open-source tools around product development and AI-assisted workflows.</p>
+      <p><code>Building in public</code> <code>Open source</code></p>
+      <a href="https://github.com/Jyseen1?tab=repositories"><strong>Follow the work →</strong></a>
+    </td>
+  </tr>
+</table>
 
-### 📊 GitHub in numbers
+## Toolbox
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Jyseen1&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&title_color=3b82f6&icon_color=7c3aed&text_color=9aa4b2&bg_color=0d1117"/>
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Jyseen1&hide_border=true&background=0d1117&stroke=1b2233&ring=3b82f6&fire=7c3aed&currStreakLabel=9aa4b2&sideLabels=9aa4b2&dates=7d8590&currStreakNum=e6edf3&sideNums=e6edf3"/>
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,python,nextjs,nodejs,html,css,tailwind,postgres,redis,docker,git,github,vercel&perline=7" alt="Technology stack" />
 </p>
 
-<!--
-  Bunlar public repo'n olunca eklenecek (şimdi eklersen boş/kırık görünür):
-  • Top languages kartı:
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jyseen1&layout=compact&hide_border=true&title_color=3b82f6&text_color=9aa4b2&bg_color=0d1117"/>
-  • Katkı yılanı (önce .github/workflows/snake.yml action'ını kurup bir kez çalıştır):
-    <img src="https://raw.githubusercontent.com/Jyseen1/Jyseen1/output/snake.svg" alt="snake"/>
--->
+## GitHub activity
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Jyseen1&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&title_color=0F6E56&icon_color=E8482B&text_color=383838&bg_color=F4F3EF" alt="Poyraz's GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jyseen1&layout=compact&hide_border=true&title_color=0F6E56&text_color=383838&bg_color=F4F3EF" alt="Most used languages" />
+</p>
 
 ---
 
 <p align="center">
-  <em>Building in public. Follow along.</em>
+  <strong>Build boldly. Refine relentlessly. Ship for real.</strong>
 </p>
